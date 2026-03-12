@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Usuarios</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<h2>Gestión de Usuarios</h2>
+
+<h3>Crear Usuario</h3>
+
+<input type="text" id="nombre" placeholder="Nombre">
+<input type="email" id="email" placeholder="Email">
+<input type="password" id="password" placeholder="Password">
+
+<button onclick="crearUsuario()">Crear</button>
+
+<h3>Lista de Usuarios</h3>
+
+<button onclick="cargarUsuarios()">Cargar Usuarios</button>
+
+<ul id="listaUsuarios"></ul>
+
+<script src="js/usuarios.js"></script>
+
+</body>
+</html>
